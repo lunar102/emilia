@@ -1,0 +1,51 @@
+body {
+    background-color: #e6e3da;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container section {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
