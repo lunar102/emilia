@@ -11,27 +11,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Bootstrap, HTML, CSS">
     <meta name="description" content="Trial and error in Bootstrap">
-    <title>My animals</title>
+    <title>Cows</title>
 </head>
 
 <body>
     <!-- navigointi -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="Bootstrapharj2.html">Kissa</a></li>
-            <li><a href="Bootstrapharj3.html">Koira</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- hamppari-ikoni -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">My animals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bootstrapharj2.html">Cats and dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Bootstrapharj3.html">Cows</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <!-- header -->
+
+    <!-- ensimmäinen kontti -->
     <div class="container mt-4">
         <section class="mb-4 p-3 bg-light">
-            <h2>Pictures of the animals in my life</h2>
-            <p>Here's some photos I've taken of the animals in my daily life. Check them out.</p>
+            <h2>Cows I've pictured in Viikki</h2>
+            <p>Here's some photos I've taken of the wonderful cattle friends living in Viikki, Helsinki.</p>
         </section>
     </div>
+
+    <!-- kuvakaruselli -->
+    <div class="d-flex justify-content-center">
+        <div style="width: 50%;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner"> <!-- karuselli-div -->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="cow2.JPG" alt="Two cows butting heads.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="cow3.JPG" alt="A cow throwing its head around.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="cow7.JPG" alt="A cow licking its face.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="cow4.JPG" alt="A cow with drool dripping.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="cow6.JPG" alt="Two cows throwing their heads around.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="cow5.JPG" alt="A cow throwing its head around.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="cow7.JPG" alt="A cow licking its nose.">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
