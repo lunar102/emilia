@@ -11,27 +11,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Bootstrap, HTML, CSS">
     <meta name="description" content="Trial and error in Bootstrap">
-    <title>My animals</title>
+    <title>Cats and dogs</title>
 </head>
 
 <body>
     <!-- navigointi -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="Bootstrapharj2.html">Kissa</a></li>
-            <li><a href="Bootstrapharj3.html">Koira</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- hamppari-ikoni -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar linkit -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">My animals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Bootstrapharj2.html">Cats and dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bootstrapharj3.html">Cows</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <!-- header -->
+
+    <!-- ensimmäinen kontti -->
     <div class="container mt-4">
         <section class="mb-4 p-3 bg-light">
-            <h2>Pictures of the animals in my life</h2>
-            <p>Here's some photos I've taken of the animals in my daily life. Check them out.</p>
+            <h2>Cats and dogs I encounter</h2>
+            <p>"The better I get to know men, the more I find myself loving dogs." - Charles de Gaulle</p>
         </section>
     </div>
+
+    <!-- galleria -->
+    <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="dog2.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Dog standing in snow."
+        />
+        <img src="cat2.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Cat sleeping in a scratch tree."
+        />
+        </div>
+        
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="cat5.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Black cat peeking between stairs."
+        />
+            <img src="cat3.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Cat licking its paw."
+        />
+        <img src="dog3.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Closeup of a dog."
+        />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="dog4.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Sleeping puppy."
+        />
+        <img src="cat4.JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Cat on a sofa."
+        />
+        </div>
+
+        </div>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
