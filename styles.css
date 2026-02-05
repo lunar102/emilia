@@ -70,7 +70,7 @@ h2 {
 
 .row {
     padding: 20px;
-}
+} 
 
 .cowNames {
     display: flex;
@@ -83,10 +83,13 @@ h2 {
     font-family: "Lexend Deca", sans-serif;
 }
 
-.kortti {
-    width: 200px;
-}
-
 .kortti-body {
     font-family: "Lexend Deca", sans-serif;
+}
+
+.accordion {
+    font-family: "Lexend Deca", sans-serif;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 20px;
 }
